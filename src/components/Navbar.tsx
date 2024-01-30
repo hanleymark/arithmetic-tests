@@ -3,16 +3,17 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav>
-      <ul className="flex justify-between m-5 items-center border-2 border-blue-500">
+    <nav className="flex justify-between m-5 items-center">
+    <Link href="/">Home</Link>
+      <ul className='flex gap-10'>
         <li>
-          <Link className="border-red-400 border-2" href="/">Link 1</Link>
+          <Link href="/dashboard">Dashboard</Link>
         </li>
         <li>
-          <Link className="border-red-400 border-2" href="/">Link 2</Link>
+          <Link href="/login">Login</Link>
         </li>
         <li>
-          <Link className="border-red-400 border-2" href="/">Link 3</Link>
+          <Link href="/register">Register</Link>
         </li>
       </ul>
     </nav>
