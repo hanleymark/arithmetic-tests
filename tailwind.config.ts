@@ -16,6 +16,7 @@ const config: Config = {
         inputbg: 'var(--input-bg-color)',
         inputtext: 'var(--input-fg-color)',
         inputph: 'var(--input-placeholder-color)',
+        inputerr: 'var(--input-error-color)',
       },
     },
   },

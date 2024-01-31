@@ -10,6 +10,7 @@
   --input-bg-color: #ececec;
   --input-fg-color: #323232;
   --input-placeholder-color: #8d8d8d;
+  --input-error-color: #d92626;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,5 +22,6 @@
     --input-bg-color: #eaeaea;
     --input-fg-color: #323232;
     --input-placeholder-color: #8d8d8d;
+    --input-error-color: #f0aeae;
   }
 }
